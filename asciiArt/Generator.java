@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * Final Project ICC (2024)
+ * Final Project, subject ICC (2024)
  * 
  * This program converts an image into ASCII art. It scales the image to a
  * specific size, maps pixel brightness values to ASCII characters, and saves
