@@ -1,10 +1,3 @@
-import javax.imageio.ImageIO;
-import java.awt.Graphics2D;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-
 /**
  * Final Project, subject ICC (2024)
  * 
@@ -14,7 +7,18 @@ import java.io.IOException;
  * 
  * @author Angel Andrade Castañeda
  * @author Urrutia Alfaro Isaac Arturo
+ *
+ * MIT License
+ * Copyright (c) 2024 Angel Andrade Castañeda y Urrutia Alfaro Isaac Arturo
  */
+
+import javax.imageio.ImageIO;
+import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Generator {
 
     /**
