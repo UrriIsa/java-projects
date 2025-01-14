@@ -52,9 +52,9 @@
    ```
 3. Run the program with:
 
-  ```bash
-  java Deletro
-  ```
+     ```bash
+     java Deletro
+     ```
 4. Select the desired difficulty level.
 5. Enter the words as prompted to score points.
 6. Upon completion, scores will be automatically saved.
