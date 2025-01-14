@@ -4,7 +4,10 @@
  *
  * This program handles serialization to save and retrieve historical scores.
  * 
- * @author Urrutia Isaac
+ * @author Urrutia Alfaro Isaac Arturo
+ *
+ * MIT License
+ * Copyright (c) 2024 Urrutia Alfaro Isaac Arturo
  */
 
 import java.io.Serializable;
