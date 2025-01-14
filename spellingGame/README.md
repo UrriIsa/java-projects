@@ -1,6 +1,3 @@
-# IndicacionesJuego
-
-
 # Deletreo (Spelling Game)
 
 
