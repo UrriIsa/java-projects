@@ -1,4 +1,4 @@
-# Generator (Ascii Generator) .
+# Generator (Ascii Generator)
 
 
 
