@@ -101,17 +101,20 @@
 
 ### 1. `Deletro` (Clase principal / Main class) :
   Controla el flujo principal del juego. Incluye la lógica de puntuación y serialización. ***Traduction :*** Controls the main flow of the game. It includes the scoring and serialization logic.
+  
   - `main()` : pide al usuario nombre y modo, crea un objeto para jugar e imprime la tabla de clasificación. ***Traduction :*** ask the user for name and mode, create an object to play and print the leaderboard.
   - `cambiaTop()` : comprueba y ajusta la clasificación dependiendo de los puntos de los jugadores. Como parámetros de entrada tiene la tabla de clasificación antes de ser actualizada, el nombre del jugador y su puntuación. Su parámetro de salida es la clasificación actualizada. ***Traduction :*** checks and adjusts the leaderboard depending on the players' points. As input parameters it has the leaderboard before being updated, the player's name and his score. Its output parameter is the updated leaderboard.
 
   
 ### 2. `TopPuntos` :
   Es la clase que nos ayuda a serializar. Incluye la impresión de la tabla de mejores puntuaciones. ***Traduction :*** it is the class that helps us to serialize. It includes the printing of the table of best scores.
+  
   - `TopPuntos()` : el método constructor para tener los nombres y puntuaciones. ***Traduction :*** the constructor method to have the names and scores.
   - `toString()` : método que devuelve la cadena para imprimir correctamente la tabla de puntuaciones. ***Traduction :*** method that returns the string to correctly print the score table.
   
 ### 3. `Juego` :
   Almacena las palabras a deletrear en función de la dificultad. Almacena la entrada del jugador y calcula los puntos a asignar por palabra. ***Traduction :*** Stores the words to be spelled depending on the difficulty. It stores the player's input and calculates the points to be assigned per word. Methods :
+  
   - `Juego ()` : el método constructor para guardar la dificultad. ***Traduction :*** the constructor method to save the difficulty.
   - `jugar ()` : tiene el funcionamiento del juego que no es visible, obtiene el tiempo de escritura, llama al método necesario para calcular los puntos y lleva la cuenta de los mismos. ***Traduction :*** has the operation of the game that is not visible, gets the writing time, calls the necessary method to calculate points and keeps track of them.
   - `calcularPuntos()` :  tiene la lógica de obtención de puntos, en sus parámetros de entrada está la palabra original y la entrada del usuario, con eso hace la suma de la puntuación por palabra. ***Traduction :*** has the logic of obtaining points, in its input parameters there is the original word and the user's input, with that it makes the sum of the score per word.
