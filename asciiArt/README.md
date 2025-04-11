@@ -85,16 +85,15 @@
 
 1. Opens the terminal in the folder where the files are located
 2. Compile the file.
-
    ```bash
    javac Generator.java
    ```
 3. Run the program with:
-
-     ```bash
-     java Generator Image.jpeg
-     ```
+   ```bash
+   java Generator Image.jpeg
+   ```
 4. Once finished, you will see a plain text file in the folder
+   
 ---
 
 ## Clases y Métodos / Classes and Methods
@@ -102,7 +101,8 @@
 ### 1. `Generator` (Clase principal / Main class) :
 
   Tiene toda la implementación. Métodos:
-   - main(): Punto de entrada del programa y convierte una imagen de entrada a arte ASCII.
+  
+   - `main()` : Punto de entrada del programa y convierte una imagen de entrada a arte ASCII.
         - Lógica destacada:
             - Escalado de imagen: Escala la imagen a un ancho fijo (90) manteniendo la relación de aspecto.
             - Cálculo del brillo: Utiliza una fórmula ponderada para el brillo basada en los componentes RGB (brillo=0,2126×rojo+0,7152×verde+0,0722×azul)
@@ -111,7 +111,8 @@
   ***Traduction :***
 
   It has all the implementation. Methods:
-  - main(): Entry point of the program and converts an input image to ASCII art.
+  
+  - `main()` : Entry point of the program and converts an input image to ASCII art.
       - Logic Highlights:
           - Image Scaling: Scales the image to a fixed width (90) while maintaining the aspect ratio.
           - Brightness Calculation: Uses a weighted formula for brightness based on the RGB components (brightness=0.2126×red+0.7152×green+0.0722×blue)
